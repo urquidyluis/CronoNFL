@@ -1,0 +1,38 @@
+*{
+	font-family: arial,sans-serif;
+	font-size: 20px;
+}
+@font-face{
+    font-family: "DS-Digib";
+    src: url("fonts/DS-Digib.ttf");
+   /* font-family: "DS-Digii";
+    src: url("fonts/DS-Digii.ttf");*/
+}
+@font-face{
+    font-family: "Digital-7";
+    src: url("fonts/Digital-7.ttf");
+}
+body{
+	background: rgb(70, 156, 109);
+    margin: 5px;
+}
+.label_horaactual{
+	display: inline-block;
+}
+.check-crono{
+    display: inline-block;
+}
+.crono-hours,.crono-minutes,.crono-seconds{
+    font-family: 'Digital-7';
+    font-size: 60px;
+    width: 80px;
+}
+/*.label_crono, .label_estimado, .label_separador{
+	font-family: 'Digital-7';
+	font-size: 60px;
+}*/
+i{
+    width: 100px;
+ /*   width: 200px;
+    height: 80px;*/
+}
